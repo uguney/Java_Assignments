@@ -14,7 +14,7 @@ public class question7 {
 			
 			quarter=change/25;
 			dimes=(change%25)/10;
-			nickles=(change%25)%10;
+			nickles=((change%25)%10)/5;
 			
 			System.out.println("Price in cents: " + price);
 			System.out.println("Your change is " + quarter + " quarters, " + dimes + " dimes, and " + nickles + " nickles");
